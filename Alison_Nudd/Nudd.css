@@ -1,0 +1,113 @@
+body{ background-image: url("uni.jpg");
+}
+h1{
+  color: grey;
+  font-size: 175px;
+  font-variant: small-caps;;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 20px 20px 20px
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: teal;
+    display: inline-block;
+}
+li.dropdown{
+  display: inline-block;
+background-color: teal;
+}
+.content{
+  display: none;
+  position: absolute;
+}
+.dropdown:hover .content{
+  display: block;
+}
+div{
+text-align: center;
+width: 40%;
+margin: auto;
+}
+li {
+    float: left;
+}
+li{
+font-size: 45px;
+font-style:oblique;
+}
+li a {
+  display: block;
+  padding: 10px;
+  padding-right: 79px
+  background-color: grey;
+}
+a:link{
+  color:white;
+}
+a:visited{
+  color:white;
+}
+a:hover{
+  color: black;
+  }
+  #website {
+      font-family: "Trebuchet MS",;
+      border-collapse: collapse;
+      margin-left: 150px;
+      max-width: 50%;
+      margin-bottom: 50px;
+  }
+  #website caption{
+    color: teal;
+    font-size: 25px;
+    font-family: fantasy;
+    font-variant: small-caps;
+    text-shadow: 5px 5px 5px white;
+  }
+  #website td, #website th {
+      border: 1px solid #ddd;
+      padding: 8px;
+  }
+  #website tr:nth-child(even){
+    background-color: #white;
+  }
+  #website tr:hover {
+    background-color: #ddd;
+  }
+  #website th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: teal;
+      color: white;
+  }
+  <head>
+<style>
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+</style>
+</head>
+<div></div>

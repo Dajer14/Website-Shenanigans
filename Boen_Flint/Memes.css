@@ -1,0 +1,96 @@
+body{
+  background-image: url("page-bg.gif");
+}
+h1{
+  color: white;
+  font-size: 50px;
+  font-family: fantasy;
+  font-variant: normal;
+  text-shadow: 5px 2px 5px black;
+}
+p{
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 30px;
+  font-family: sans-serif;
+  }
+  li{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  a:link{
+    color: white;
+    opacity: 1;
+  }
+  a:visited{
+    color:currentColor;
+    opacity: 1;
+  }
+  a:hover{
+    color: red;
+    opacity: 1;
+  }
+#page caption{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    max-width: 50%;
+    margin-bottom: 50px;
+}
+#page caption{
+  color: navy;
+  font-size: 25px;
+  font-family: fantasy;
+  font-variant: small-caps;
+  text-shadow: 5px 5px 5px white;
+}
+#page td, #memes th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#page tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+#page tr:hover {
+  background-color: #ddd;
+}
+#page th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: navy;
+    color: white;
+}
+img{
+  margin:0 auto;
+  display: block;
+}
+#imgdrop img{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+#imgcont{
+  display: none;
+  position: relative;
+  box-shadow: 0px 8px 16px 0px;
+  min-width: 225px;
+  max-width: 300px;
+  background-color: #f9f9f9;
+}
+#imgcont p{
+  color: black;
+  text-align: center;
+}
+#imgdrop:hover #imgcont{
+  display:block;
+  margin: 0 auto;
+}
+footer p{
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+.space{
+  margin:50px;
+}

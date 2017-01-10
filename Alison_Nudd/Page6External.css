@@ -1,0 +1,32 @@
+body{
+  background-color:orange;
+}
+h1{
+  color: black;
+  font-size: 75px;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 25px 25px 25px
+  padding: 80px;
+  background-image: url("animals.jpg");
+  background-position: center;
+}
+img{
+display: block;
+margin: auto;
+width: 45%;
+}
+p{
+  text-align: center;
+  font-family:arial;
+  font-size: 50px
+}
+footer{
+  font-size: 30px;
+  text-align: right;
+}
+body{
+  text-align: center;
+  font-family: monospace;
+  font-size: 15 px;
+}

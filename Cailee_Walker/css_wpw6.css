@@ -1,0 +1,65 @@
+Body{
+  background-color:White;
+  color:Black;
+  font-size: 40px;
+  font-style: oblique;
+}
+h1 {
+  padding: 50px;
+  Background-image: url("Background2.jpg");
+  background-position:center;
+  color:White;
+  text-align:center;
+  font-family:fantasy;
+  font-size: 75px;
+}
+li.dropdown{
+  display: inline-block;
+}
+.content{
+  display: none;
+  position: absolute;
+
+}
+.dropdown:hover .content{
+  display: block;
+}
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #grey;
+}
+li {
+    float: left;
+    postion: center;
+
+}
+li{
+font-size: 45px;
+font-style: oblique;
+}
+li a {
+  padding-right: 30px;
+  background-color:	grey;
+  color: white;
+}
+footer{
+    padding: 30px;
+    background-image: url("Background2.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    Color: White;
+    font-size: 45px;
+    font-family: fantasy;
+    }
+    a:link{
+      color:		White;
+    }
+    a:visited{
+      color:	white;
+    }
+    a:hover{
+      color:	Black;
+    }

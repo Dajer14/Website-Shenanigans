@@ -1,0 +1,29 @@
+body{
+  background-color: pink;
+}
+h1{
+  color: white;
+  font-size: 75px;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 25px 25px 25px
+  padding: 80px;
+  background-image: url("cat.gif.jpg");
+  background-position: center;
+}
+ul{
+  color: white
+}
+img{
+display: block;
+margin: auto;
+width: 50%;
+}
+p{
+  text-align: center;
+  color: black;
+}
+footer{
+  font-size: 30px;
+  text-align: right;
+}

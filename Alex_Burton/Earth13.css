@@ -1,0 +1,30 @@
+body{
+  background-image: url("Black Flash");
+}
+h1{
+  color: black;
+  font-size: 55px;
+  font-family:monospace;
+  font-variant: inherit;
+}
+p{
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 25px;
+  font-family:monospace;
+}
+li{
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+}
+a:link{
+  color:black;
+}
+a:visited{
+  color:transparent;
+  opacity: 1;
+}
+a:hover{
+  color:black;
+}

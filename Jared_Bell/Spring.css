@@ -1,0 +1,71 @@
+@fontface {
+  font-family: Comic-Sans;
+  src:url(comic.ttf);
+}
+
+body {
+  background-image: url("Pictures/Spring background.jpg")
+}
+
+footer {
+  color: white;
+
+}
+
+li {
+  color: white;
+  font-size: 15px;
+  font-family: "Comic Sans MS", Comic-sans;
+}
+
+li a, .drpbtn{
+  display: inline-block;
+  padding: 6px 18px;
+  color: skyblue;
+  text-align: left;
+  font-weight: lighter;
+  text-decoration: none;
+
+}
+
+li a:hover:not(.active), .dropdown:hover .dropbtn.{
+  color:red-orange;
+  background-color: #555555;
+}
+
+.active{
+  color: white;
+}
+
+.dropdown:hover .content{
+  display: block;
+}
+
+li.dropdown{
+  display: inline-block;
+}
+
+.content{
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: #7b7b7b;
+}
+
+a:link{
+  color: white;
+}
+
+a:visited{
+  color: maroon;
+}
+
+a:hover{
+  color: red;
+}
+
+p {
+  color: white;
+  font-size: 25px;
+  font-weight:100;
+  font-family: "Comic Sans MS", Comic-sans;

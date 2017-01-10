@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<!--Alana Young-->
+<html>
+<head>
+
+  <title> My Plants </title>
+<link rel="stylesheet" type="text/css" href="6th_page_css.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<h1>
+  <body style="text-align:center;">
+<div class="tooltip">   <img src="Logo_Pics/future_logo.jpg" alt="Home Link" usemap="#index" height=180 width=90>
+  <map name="index">
+    <area shape="rect" coords="0, 0, 90, 180" href="index.html">
+  </map>
+  <span class="tooltiptext">Click image to go to home page. </span>
+</div>
+My Plants
+</h1>
+</br>
+   <ul>
+      <li><a href= "index.html"> Home </a></li>
+   <li><a href= "2nd_page.html"> The Cacti Collection </a></li>
+   <li><a  href= "3rd_page.html"> Plant Potting Ideas </a><li>
+   <li><a href= "4th_page.html"> My Favorites </a><li>
+    <li><a href= "5th_page.html"> Pros and Cons </a><li>
+    <li><a class="active" href= "6th_page.html"> My Plants </a><li>
+   </ul>
+  </br>
+</br>
+<i class="fa fa-camera-retro fa-.5x"></i>
+<i class="fa fa-camera-retro fa-.5x"></i>
+<i class="fa fa-camera-retro fa-.5x"></i>
+<i class="fa fa-camera-retro fa-.5x"></i>
+<i class="fa fa-camera-retro fa-.5x"></i>
+<p  id ="p1">
+  Sorry the picture quality is trash; these are my plants.<br> Ideally, I will take better pictures to include here soon!
+</p>
+<i class="fa fa-camera-retro fa-2x"></i>
+<i class="fa fa-camera-retro fa-2x"></i>
+<i class="fa fa-camera-retro fa-2x"></i>
+<i class="fa fa-camera-retro fa-2x"></i>
+<i class="fa fa-camera-retro fa-2x"></i>
+<div class="slideshow-container">
+<div class="mySlides fade">
+</br>
+</br>
+</br>
+  <img src="Logo_Pics/Mine1.jpg" style=width="600" height="400">
+</div>
+<div class="mySlides fade">
+  <img src="Logo_Pics/Mine2.JPG" style=width="600" height="400">
+</div>
+<div class="mySlides fade">
+  <img src="Logo_Pics/Mine3.JPG" style= width="600" height="400">
+</div>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<br>
+<br>
+</body>
+<footer>
+  <p id ="f0">   Created by Alana Young <br>
+  Web Design 2016</p>
+<p id ="f1">  <b><a href="index.html" class="button"> Home </b></a>
+<p id ="f2">  <b><a href="5th_page.html" class="button"> Back </b></a>
+</footer>
+</html>

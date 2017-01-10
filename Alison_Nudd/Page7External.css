@@ -1,0 +1,19 @@
+head{
+  text-align: center;
+  font-size: 200px;
+  font-family: cursive;
+}
+h1{
+  background-image: url("phone.png");
+  background-position: center;
+}
+body{
+  text-align: center;
+  font-size: 100px;
+  font-family: cursive;
+  background-color: red;
+}
+footer{
+font-size: 50px;
+text-align: center;
+}

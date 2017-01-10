@@ -1,0 +1,30 @@
+body{
+  background-color: teal;
+}
+h1{
+  color: black;
+  font-size: 75px;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 25px 25px 25px
+  padding: 80px;
+  background-image: url("logos.jpg");
+  background-position: center;
+}
+ul{
+  color: white
+}
+img{
+display: block;
+margin: auto;
+width: 50%;
+}
+p{
+  text-align: center;
+  font-family:arial;
+  font-size: 50px
+}
+footer{
+  font-size: 30px;
+  text-align: right;
+}

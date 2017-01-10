@@ -1,0 +1,108 @@
+@fontface {
+  font-family: Comic-Sans;
+  src:url(comic.ttf);
+}
+
+body {
+  background-image: url("Pictures/No mans sky background for main site.jpg");
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  font-family: "Comic Sans MS", Comic-sans;
+  font-variant: normal;
+}
+
+#p1 {
+  color: gold;
+  font-size: 25px;
+  font-weight:100;
+  font-family: "Comic Sans MS", Comic-sans;
+}
+
+li {
+  color: white;
+  font-size: 15px;
+  font-family: "Comic Sans MS", Comic-sans;
+}
+
+li a, .drpbtn{
+  display: inline-block;
+  padding: 6px 18px;
+  color: skyblue;
+  text-align: left;
+  font-weight: lighter;
+  text-decoration: none;
+
+}
+
+li a:hover:not(.active), .dropdown:hover .dropbtn.{
+  color:red-orange;
+  background-color: #555555;
+}
+
+.active{
+  color: white;
+}
+
+.dropdown:hover .content{
+  display: block;
+}
+
+li.dropdown{
+  display: inline-block;
+}
+
+.content{
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: #7b7b7b;
+}
+
+a:link{
+  color: white;
+}
+
+a:visited{
+  color: maroon;
+}
+
+a:hover{
+  color: red;
+}
+
+#p2{
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: "Comic Sans MS", Comic-sans
+}
+footer{
+  position: fixed;
+  bottom: 0px;
+}
+
+#stuff td, #stuff th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#stuff caption{
+  color: lightblue;
+  font-family: "Comic Sans MS";
+}
+
+#stuff {
+    font-family: "Comic Sans MS";
+    border-collapse: collapse;
+    max-width: 50%;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#stuff {
+  background-color: lightblue;
+}
